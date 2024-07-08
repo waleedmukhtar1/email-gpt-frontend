@@ -23,7 +23,7 @@ const EmailForm = () => {
     setResponseMessage('');
     try {
       //https://7a3a-103-157-88-21.ngrok-free.app
-      const response = await fetch('http://54.234.245.196:8000/email', {
+      const response = await fetch('https://54.234.245.196/email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
